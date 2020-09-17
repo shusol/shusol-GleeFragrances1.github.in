@@ -1,0 +1,120 @@
+.gallery {
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+  
+}
+.gallery:hover .gallery__image {
+    filter: grayscale(1);
+}
+.gallery__column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+.gallery__link {
+    margin:0px -65px 0px 0px;
+    overflow: hidden;
+}
+.gallery__link:hover .gallery__image {
+    filter: grayscale(0);
+}
+.gallery__link:hover .gallery__caption {
+    opacity: 1;
+}
+.gallery__thumb {
+    position: relative;
+}
+.gallery__image {
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+}
+.gallery__image:hover {
+    transform: scale(1.1);
+}
+.gallery__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 15px 15px;
+    width: 100%;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.3s;
+}
+
+
+.tcb-product-slider {
+    /* background: #333; */
+    /* background-image: url(https://unsplash.it/1240/530?image=721); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+  }
+  .tcb-product-slider .carousel-control {
+    width: 5%;
+  }
+  .tcb-product-item a {
+    color: #fb8264;
+  }
+  .tcb-product-item a:hover {
+    text-decoration: none;
+  }
+  .tcb-product-item .tcb-hline {
+    margin: 10px 0;
+    height: 1px;
+    background: #ccc;
+  }
+  @media all and (max-width: 768px) {
+    .tcb-product-item {
+      margin-bottom: 30px;
+    }
+  }
+  .tcb-product-photo {
+    text-align: center;
+    height: 275px;
+    background: #fff;
+  }
+  .tcb-product-photo img {
+    height: 128%;
+    display: inline-block;
+  }
+  .tcb-product-info {
+    background: #ffffff;
+    padding: 15px;
+    height: 200px;
+  }
+  .tcb-product-title h4 {
+    margin-top: 85px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+  }
+  .tcb-product-title h4 a{
+      color:black
+      
+  }
+  .tcb-product-rating {
+    color: #acacac;
+  }
+  .tcb-product-rating .active {
+    color: #FFB500;
+  }
+  .tcb-product-price {
+    color: firebrick;
+    font-size: 18px;
+  }
+  
+  .ps-section__header img{
+      object-fit: cover;
+      height: 20px;
+      width: 10%;
+  }
+
+  

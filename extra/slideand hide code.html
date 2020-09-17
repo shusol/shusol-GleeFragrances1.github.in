@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>shivrai</title>
+  <link rel="stylesheet" href="extra/stylesnh.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+<link rel="stylesheet"href="https://rawgit.com/Eonasdan/bootstrap-datetimepicker/master/build/css/bootstrap-datetimepicker.min.css">
+<script src="https://rawgit.com/Eonasdan/bootstrap-datetimepicker/master/build/js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+            <div class="col-lg-3">
+            <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+            <div class="col-lg-3">
+            <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+    </div>
+  </div>
+  <div class="container" id="N">
+    <div class="row" >
+            <div class="col-lg-3">
+            <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+            <div class="col-lg-3">
+              <img src="G.gif" alt="" height="150px">
+            </div>
+    </div>
+  </div>
+<button class="btn btn-primary">show</button>
+  <!-- <button class="btn btn-primary" onclick="document.getElementById('N').style.display='block',display='none'">show</button>
+  <button class="btn btn-primary" onclick="document.getElementById('N').style.display='none'">show</button> -->
+  <script>
+  // $(".btn").click(function() {
+  //   $("#N").toggle();  
+  // });
+  
+  // OR
+  
+  $(".btn").click(function() {
+    
+     var lable = $(".btn").text().trim();
+  
+     if(lable == "hide") {
+       $(".btn").text("Show");
+       $("#N").hide();
+     }
+     else {
+       $(".btn").text("Hid");
+       $("#N").show();
+     }
+      
+    });
+  </script>
+  
+  
+<!-- Item slider-->
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://images.unsplash.com/photo-1539840093138-9b3e230e5206?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=765a2eb222b1851840a4a157780fb487&auto=format&fit=crop&w=1534&q=80" class="img-responsive center-block"></a>
+              <h4 class="text-center">MAYORAL SUKNJA</h4>
+              <h5 class="text-center">4000,00 TK</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://images.unsplash.com/photo-1524010349062-860def6649c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e725946a3f177dce83a705d4b12019c2&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+              <h4 class="text-center">MAYORAL KOŠULJA</h4>
+              <h5 class="text-center">4000,00 TK</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://images.unsplash.com/photo-1511556820780-d912e42b4980?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=04aebe9a22884efa1a5f61e434215597&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+              <span class="badge">10%</span>
+              <h4 class="text-center">PANTALONE TERI 2</h4>
+              <h5 class="text-center">4000,00 TK</h5>
+              <h6 class="text-center">5000,00 TK</h6>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://images.unsplash.com/photo-1531925470851-1b5896b67dcd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=91fe0ca1b5d72338a8aac04935b52148&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+              <h4 class="text-center">CVETNA HALJINA</h4>
+              <h5 class="text-center">4000,00 RSD</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://images.unsplash.com/photo-1516961642265-531546e84af2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74065eec3c2f6a8284bbe30402432f1d&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+              <h4 class="text-center">MAJICA FOTO</h4>
+              <h5 class="text-center">4000,00 TK</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://images.unsplash.com/photo-1532086853747-99450c17fa2e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61a42a11f627b0d21d0df757d9b8fe23&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+              <h4 class="text-center">MAJICA MAYORAL</h4>
+              <h5 class="text-center">4000,00 TK</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="slider-control"></div>
+        <a class="left carousel-control" href="#itemslider" data-slide="prev"></a>
+        <a class="right carousel-control" href="#itemslider" data-slide="next"></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<section>
+<div class="container">
+  <h3>Create Purchase Order</h3>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="form-group">
+              <label>Date <span class="glyphicon glyphicon-asterisk"></span></label>
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control"/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+          <label>PO Created By <span class="glyphicon glyphicon-asterisk"></span> </label><br>
+          <select class="selectpicker" >
+            <option>Add Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+        </select>
+        </div> 
+        <div class="col-lg-3">
+          <label>Purchase Indent No</label><br>
+          <select class="selectpicker" >
+            <option>Add Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+            <option value="">Mr.QA Maneger</option>
+        </select>
+        </div> 
+        <div class="col-lg-2">
+          <div class="form-group">
+          <label>Vender</label>
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="Vender">
+        </div> 
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3">
+        <div class="form-group">
+          <label>PO Number <span class="glyphicon glyphicon-asterisk"></span></label>
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-lg-4">
+        <label>Project Name <span class="glyphicon glyphicon-asterisk"></span></label><br>
+        <select class="selectpicker" >
+          
+          <option value="">Farm ERP test Farm1</option>
+          <option value="">Farm ERP test Farm2</option>
+          <option value="">Farm ERP test Farm3</option>
+          <option value="">Farm ERP test Farm4</option>
+      </select>
+      </div> 
+      <div class="col-lg-3">
+        <label>Perfect Model of Payment <span class="glyphicon glyphicon-asterisk"></span></label><br>
+        <select class="selectpicker" >
+          
+          <option value="">Farm ERP test Farm1</option>
+          <option value="">Farm ERP test Farm1</option>
+          <option value="">Farm ERP test Farm1</option>
+          <option value="">Farm ERP test Farm1</option>
+      </select>
+      </div> 
+       
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3">
+        <label>PO Created Locatio <span class="glyphicon glyphicon-asterisk"></span></label><br>
+        <select class="selectpicker" >
+          
+          <option value="">option1</option>
+          <option value="">option2</option>
+          <option value="">option3</option>
+          <option value="">option4</option>
+      </select>
+      </div>
+      <div class="col-lg-4">
+        <div class="form-group">
+          <label>Vender Name <span class="glyphicon glyphicon-asterisk"></span></label>
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-lg-3">
+        <div class="form-group">
+          <label>Cost Center <span class="glyphicon glyphicon-asterisk"></span></label>
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+      
+      <div class="col-lg-3">
+        <div class="form-group">
+          <label>Copy From <span class="glyphicon glyphicon-asterisk"></span></label>
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-lg-4">
+        <div class="form-group">
+          <label>Address</label>
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      
+      <div class="col-lg-3">
+        <div class="form">
+          <label>Overseas PO</label>
+          <div class="row">
+          <div class="col-lg-6">
+             <input name="group1" type="radio" checked />
+                <span>Yes</span>
+        </div>
+        <div class="col-lg-6">
+          <input name="group1" type="radio" checked />
+             <span>No</span>
+     </div>
+    </div>
+        </div> 
+      </div>
+      <div class="col-lg-4">
+        <div class="row">
+        <div class="col-lg-3">
+          <label>currency</label><br>
+          <select class="selectpicker" >
+            
+            <option value="">INR</option>
+            <option value="">INR</option>
+            <option value="">INR</option>
+            <option value="">INR</option>
+        </select>
+         </div>
+         <div class="col-lg-4">
+          <div class="form-group">
+            <label>Ex Rate</label>
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-lg-5">
+          <div class="form-group">
+            <label>Date</label>
+              <div class='input-group date' id='datetimepicker'>
+                  <input type='text' class="form-control"/>
+                  <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+              </div>
+          </div> 
+        </div>
+         </div>
+          
+        </div> 
+      </div>
+  </div>
+</div>
+</section>
+<div class="down">
+ 
+<section>
+  <div class="container">
+      
+        
+<button class="btn btn-info">Uplode</button>
+<div class="file-upload">
+  <div class="file-select">
+    <div class="file-select-button" id="fileName">Browser</div>
+    <div class="file-select-name" id="noFile">No file chosen...</div> 
+    <input type="file" name="chooseFile" id="chooseFile"> 
+  </div>
+ 
+</div>
+</div>
+
+<div class="container">
+<table class="table">
+   
+  <thead style="background-color: rgb(238, 236, 236);">
+    <tr>
+      <th scope="col"><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"></th>
+      <th scope="col">Sr.No</th>
+      <th scope="col">PI Number</th>
+      <th scope="col">Item type</th>
+      <th scope="col">Item Code</th>
+      <th scope="col">Required Quantity</th>
+      <th scope="col">Qty</th>
+      <th scope="col">Unit</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      
+                                                
+      <th scope="row"><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"></th>
+      <th scope="row">1</th>
+      <td></td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td class="text-center">0.0000</td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td>
+        <select class="selectpicker">
+            
+        <option value="">Select item select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select>
+  </td>
+      
+      
+      
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"></th>
+      <th scope="row">2</th>
+      <td></td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td class="text-center">0.0000</td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td>
+        <select class="selectpicker" >
+            
+          <option value="">Select item select </option>
+          <option value="">Select</option>
+          <option value="">Select</option>
+          <option value="">Select</option>
+      </select>
+      </td>
+      
+      
+    </tr>
+    <tr>
+      <th scope="row"><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"></th>
+      <th scope="row">3</th>
+      <td></td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td class="text-center">0.0000</td>
+      <td><input type="text" class="form-control" id="deposit"name="deposit" placeholder="" style="height: 40px;"></td>
+      <td> <select class="selectpicker" >
+            
+        <option value="">Select item select </option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select></td>
+      
+      
+    </tr>
+  </tbody>
+</table>
+</div>
+      
+</section>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-sm-4">Valuation base on</div>
+        <div class="col-sm-4">
+          <select class="selectpicker" >
+              
+            <option value="">Order Qty</option>
+            <option value="">Select</option>
+            <option value="">Select</option>
+            <option value="">Select</option>
+        </select>
+        </div>
+        <div class="col-sm-4">Vender Name
+    </div>
+        </div>
+<br>
+      <div class="row">
+        <div class="col-sm-4">Insurance Chages(INR)</div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-sm-4"><select class="selectpicker" >
+            
+        <option value="">Select item select </option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select>
+  </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">Freight/trnsportation charges(INR)</div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-sm-4"><select class="selectpicker" >
+            
+        <option value="">Select item select </option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select>
+  </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">Loading/unloding charge(INR)</div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-sm-4"><select class="selectpicker" >
+            
+        <option value="">Select item select </option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select>
+  </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">Incentive(INR)</div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-sm-4"><select class="selectpicker" >
+            
+        <option value="">Select item select </option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select>
+  </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">Other expences(INR)</div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-sm-4"><select class="selectpicker" >
+            
+        <option value="">Select item select </option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select>
+  </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">C.Sub Total Amount</div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          
+          <input type="text" class="form-control" id="deposit"
+              name="deposit" placeholder="">
+        </div> 
+      </div>
+      <div class="col-sm-4"><select class="selectpicker" >
+            
+        <option value="">Select item select </option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+        <option value="">Select</option>
+    </select>
+  </div>
+      </div>
+    </div>
+      
+
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-sm-4"></div>
+        <div class="col-sm-4 text-center">EUR</div>
+        <div class="col-sm-4 text-center">INR</div>
+        </div><br>
+        <div class="row">
+          <div class="col-sm-4 text-right">A.Total Base Amount</div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+           
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">Total Tax 199</div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+           
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">Total Tax 299</div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+           
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">B.Tax Amount</div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+           
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">Round Off type</div>
+        <div class="col-sm-4 text-center">
+          <select class="selectpicker" >
+            
+            <option value="">INR</option>
+            <option value="">INR</option>
+            <option value="">INR</option>
+            <option value="">INR</option>
+        </select>
+        </div>
+        <div class="col-sm-4 text-center">
+          
+        </div>
+        </div><br>
+        <div class="row">
+          <div class="col-sm-4 text-right">D.Round Off Amount</div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+           
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">Advance Amount</div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+           
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">(A+B+D)=E Grand Total Amount</div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+           
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="deposit"
+                name="deposit" placeholder="">
+          </div> 
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+</div>
+
+
+<div class="container">
+<button class="btn btn-warning" style="border-radius: 20px;width:10%;height:40px;">SUBMIT</button>
+<button class="btn btn-primary active" style="border-radius: 20px;width:10%;height:40px;">CANCEL</button>
+</div>
+<br><br>
+
+
+<script type="text/javascript">	
+	$('#datetimepicker1').datetimepicker({
+    defaultDate: new Date(),
+    format: 'DD/MM/YYYY',
+    sideBySide: true
+});
+
+$('#datetimepicker').datetimepicker({
+    defaultDate: new Date(),
+    format: 'DD/MM/YYYY',
+    sideBySide: true
+});
+
+$(document).ready(function(){
+
+$('#itemslider').carousel({ interval: 3000 });
+
+$('.carousel-showmanymoveone .item').each(function(){
+var itemToClone = $(this);
+
+for (var i=1;i<6;i++) {
+itemToClone = itemToClone.next();
+
+if (!itemToClone.length) {
+itemToClone = $(this).siblings(':first');
+}
+
+itemToClone.children(':first-child').clone()
+.addClass("cloneditem-"+(i))
+.appendTo($(this));
+}
+});
+});
+
+</script>
+
+</body>
+</html>
